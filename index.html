@@ -1,294 +1,243 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-           
-    <title>Prathamesh Bagul</title>
-</head>
-<body>
-    <div class="navbar">
-           <ul class="nav-list">
-              
-              <li><a href="#about">About Me</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#web">Contact</a></li>
-           </ul>
-        </nav>
-     </div>
+<html>
+    <head>
+        <title> BugSuite</title>
+        <link rel="icon" href="bugicons/P3.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-      
-    <section id="home">
-        <h4 class="h.primary">HI THERE👋, I’M</h4>
-        <h1 class="header">Prath.</h1>
+
+        <link rel="stylesheet" href="mains.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="team.css">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="page3.css">
+        <link rel="stylesheet" href="page2.css">
+        <link rel="stylesheet" href="page4.css">
+        <link rel="stylesheet" href="contact.css">
+
+
+
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+            </script>
+            
+            <script>     
+                $.getJSON("https://api.ipify.org?format=json", function(data) {
                 
-        <p> Cyber Security Researcher</p>
-
-    </section>
-
-    <section id="about">
-        <h2>
-            About me
-        </h2>
-        <br>
-        <br>
-        <p>Second-year BTech CS Student, studying in SSPU, Pune. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. A
-            cybersecurity enthusiast with avery keen interest in bug hunting and how the web works. Also a Front-end web developer engaging user experience with through website development.<br>
-            <br>
-            I do Bug Bounty and create high performance & rich interactive websites that work across all platforms & devices<br>
-            And with a passion for cyber security and designing beautiful user experiences.<br>
+                    // Setting text of element P with id gfg
+                    $("#ip").html(data.ip);
+                })
+            </script>
+    </head>
     
-        </p>
     
-        <img src="img/aboutbg.jpg" alt="" class="profile"><br>
-        <br>
-        <br>
-        
-        <!--<button style="margin-left: 40%;display:block">
-            <a href="/img/2022 Resume.pdf">
-            <div class="resume">
-                 <h3>🡆 RESUME</h3>
-            </div>
-            </a>
-        </button>-->
-    </section>
-
-
-
- <!-- Experiences and education -->
-
-
-<!-- <section id="theexp">
-        <h4>experience:</h4>
-        <h2>Companies I’ve Worked for</h2>
-        <div class="container1">
-            <div class="finalexp">
-                 <p class="exp-date1">June 2022 - Aug 2022</span>
-                 </p>
-                    <p class="exp-para1">
-                    <strong>Cyber Forensics Intern</strong>
-                  </p>
-                 <p class="small">at <a href="https://cybersecuritycorp.in">Cyber Security Corporation, Pune</a></p>
+    <body>
+        <div class="header">
+            <div class="left-section">  
+                <div>
+                   <a href="#top"> <img class="bs-logo" src="bugicons/P.png"> </a>
                 </div>
-                <br>
-                    <div class="finalexp">
-                    <p class="exp-date1">Jan 2022 - Feb 2022</span>
-                    </p>
-                       <p class="exp-para1">
-                       <strong>Cyber Security Virtual Intern</strong>
-                     </p>
-                    <p class="small">at <a href="https://www.sap.com">SAP</a></p>
-                   </div>
-                <br>
-                   <div class="finalexp">
-                    <p class="exp-date1">Aug 2021 - Sep 2021</span>
-                    </p>
-                       <p class="exp-para1">
-                       <strong>Cyber Security Intern</strong>
-                     </p>
-                    <p class="small">at <a href="https://risl.rajasthan.gov.in">RISL, Government of Rajasthan</a></p>
-                   </div>
-                <br>
-            </div> 
-        </a>
-    -->
-      
+            </div>
 
 
-            <br>
-            <br>
-            <br>
 
 
- 
-    <section id="projects">
-        <h4>experience:</h4>
-        <h2>Companies I’ve Worked for</h2>
-        <div class="container">
-        <button style="margin: auto;">
-        
-            <div class="probtn btn-11">
-                <h3>RISL, Government of Rajasthan</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>- Worked on the functioning of a data center and the SOC tools user.</p>
-                    </div>
-            </div> 
-        </a>
-        </button> 
-        
-        <button style="margin: auto;">
-           
-            <div class="probtn btn-12">
-                <h3>SAP</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>- Virtual Internship based on cyber security task modules</p>
-                    </div>
-            </div> 
-        </a>
-        </button>
-        
-        <button style="margin: auto;">
-           
-            <div class="probtn btn-13">
-                <h3>Cyber Security Corporation</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>- Worked on live cyber crime cases.</p>
-                     
-                    </div>
-            </div> 
-        </button> 
+            <div class="middle-section">
+                <a href="#top" style="color:black;"><div class="tabs">Home</div></a>
+                <a href="#pg2" style="color:black;"><div class="tabs">About</div></a>
+                <a href="#services" style="color:black;"><div class="tabs">Experience</div></a>
+                <a href="#services-1" style="color:black;"><div class="tabs">Projects</div></a>
+                <a href="#team" style="color:black;"><div class="tabs">Skills</div></a>
+            </div>
+
+            <div class="right-section"> 
+            </div>
         </div>
-    </section>
 
- 
 
-    <section id="projects">
-        <h2>Skills:</h2>
-        <div class="container">
-        <button style="margin: auto;">
-            <a href="https://certificate.givemycertificate.com/c/769372f9-ec01-4832-bf02-4f933f35c54b">
-            <div class="probtn btn-14">
-                <h3>Bug Bounty Hunting</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Been rewarded by various different organisations and have also received hall of fame.</p>
+
+
+
+            <div class="page1">
+                <div class="para">
+                    Hi There👋, <br>
+                    I’m Prath.
+                     <p> Bug Hunter, Cyber Security Researcher & Front-End Designer
+                </p>
+
+                <a style="text-decoration: none;"; href="https://wa.me/+919960946063?text=I%20want%20to%20know%20more%20about%20your%20Services">
+            
+                </a>
+                </div>
+
+
+
+
+                <div class="ip-box">
+
+                    <div class="ip-head">
+                        <div class="three-but">
+                            <div class="red-c"></div>
+                            <div class="yellow-c"></div>
+                            <div class="green-c"></div>
+                        </div>
                     </div>
-            </div> 
-        </a>
-        </button> 
-        
-        <button style="margin: auto;">
-            <a href="https://thewebblog.netlify.app/">
-            <div class="probtn btn-15">
-                <h3>Certifications</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>CodeRed</p>
-                    </div>
-            </div> 
-        </a>
-        </button>
-        
-        <button style="margin: auto;">
-            <a href="https://github.com/prath-10/Hacking-4-Community-Website">
-            <div class="probtn btn-16">
-                <h3>Python Programming</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Worked on real life cyber security cases.</p>
-                    </div>
-            </div> 
-        </button> 
+                    &nbsp; $<span class="gm"> Good Morning </span>,User.
+                    <br>
+                    &nbsp; $<span class="gm"> Your IP is</span> &#60;<span class="gm" style="color:white;" id="ip"></span> &#62;.
+                    <br>
+                    &nbsp; $ Welcome to my portfolio.   
+                </div>
+            </div>
+            
+
+
+
+
+        <div id="pg2">
+            <div class="page2">
+                <div class="page2text"> About me.<br>
+                    <br>
+                    <span class="page2shorttext">As a third-year BTech Computer Science student with a specialization in Cyber Security from Symbiosis University, I possess a strong passion for technology and its various applications. I do part-time bug hunting, having earned a spot among the top 220 on YesWeHack, a prominent platform in the industry. With my interests spanning across different domains, including cyber security, pentesting, blockchain, and front-end designing, I possess a well-rounded skill set and the ability to excel in multiple areas. </span>
+               </div>
+               <div>
+                    <img class="aboutus" src="bugicons/banner1.png">
+                </div>
+            </div>
         </div>
-    </section>
 
-
-
-    <section id="projects">
-        <h4>projects:</h4>
-        <h2>Stuff I’ve Worked On 📁</h2>
-        <div class="container">
-        <button style="margin: auto;">
-            <a href="https://certificate.givemycertificate.com/c/769372f9-ec01-4832-bf02-4f933f35c54b">
-            <div class="probtn btn-1">
-                <h3>Hackathons</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Open Source Contribution</p>
-                        <p>SWOC 2.0</p>
-                        <p>Hacking 4 Community Hackathon</p>
-                    </div>
-            </div> 
-        </a>
-        </button> 
-        
-        <button style="margin: auto;">
-            <a href="https://medium.com/@prathameshbagul"></a>
-            <a href="https://thewebblog.netlify.app/">
-            <div class="probtn btn-2">
-                <h3>Blogs</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Link to my medium page.</p>
-                    </div>
-            </div> 
-        </a>
-        </button>
-        
-        <button style="margin: auto;">
-            <a href="https://github.com/prath-10/Hacking-4-Community-Website">
-            <div class="probtn btn-3">
-                <h3>Pyhton Projects</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Worked on various different python projects.</p>
-                    </div>
-            </div> 
-        </button> 
-
-        <button style="margin: auto;">
-            <a href="https://github.com/prath-10/Hacking-4-Community-Website">
-            <div class="probtn btn-4">
-                <h3>Bug Bounty</h3>
-                    <div class="card-content">
-                        <br>
-                        <br>
-                        <p>Secured various different organisations and also have been awarded.</p>
-                        <p>Top 250 on YesWeHack</p>
-                    </div>
-            </div> 
-        </button> 
-
-        </div>
-    </section>
-
-    <section id="web">
-        <h4>social media accounts</h4>
-        <h2>On The Web 🌐</h2>
-        <div id="profile">
-
-       <!-- <button class="media">
-            <a href="https://www.instgram.com/prath_10">Instagram</a>
-        </button> -->
-
-        <button class="media1">
-            <a href="https://github.com/prath-10">Github</a>
-        </button>
-
-        <button class="media2">
-            <a href="https://linkedin.com/in/prathameshbagul">LinkedIn</a>
-        </button>
-
-        <button class="media3">
-            <a href="mailto: prathameshbagul@gmail.com">Mail</a>
-        </button>
-
-        <button class="media4">
-            <a href="https://twitter.com/prath_10">Twitter</a>
-        </button>
-        
-    </section>
-
-
-
-    <footer>
-        Prathamesh Bagul
-    </footer>
     
-</body>
-</html> 
+        <div id="services">
+            <div class="page3">
+                <div class="servicestag">Companies I've worked for:</div>
+                <div class="banners">
+                    <link href='//fonts.googleapis.com/css?family=Roboto:200,400,600' rel='stylesheet' type='text/css'>
+                    <div class="history-tl-container">
+                      <ul class="tl">
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+                          <div class="timestamp">
+                            06/2022 -<br> 08/2022
+                          </div>
+                          <div class="item-title">CYBER SECURITY CORPORATION</div>
+                          <div class="item-detail">CYBER FORENSICS INTERN<br>
+                    - Worked on live cyber crime cases.<br>
+                    - Appointed as a cyber security expert with the Government of Maharashtra. <br>
+                    - Worked on crypto scam case, data extraction, data cloning, mobile forensics, etc.
+                    </div>
+                        </li>
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+                          <div class="timestamp">
+                            01/2022 -<br> 02/2022
+                          </div>
+                          <div class="item-title">SAP</div>
+                          <div class="item-detail">CYBER SECURITY VIRTUAL INTERN<br>
+                               -Over the period of February 2022, I completed practical
+                    task module in:<br>
+                    -Protect the keys to the kingdom. <br>
+                    -Gone Phishing. <br>
+                    -Harden your system. <br>
+                    -Final analysis and recommendations.<br>
+                          </div>
+                        </li>
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+                          <div class="timestamp">
+                            08/2021 -<br> 09/2021
+                          </div>
+                          <div class="item-title">RISL, Government of Rajasthan</div>
+                          <div class="item-detail">CYBER SECURITY INTERN<br>
+                    -Learned how a data center is designed and how it works. <br>
+                    -Different types of SOC tools and cybersecurity tools. <br>
+                    -APT's and their prevention.</div>
+                        </li>
+                    
+                      </ul>
+                    
+                    </div> 
+            
+            </div>
+        </div>
+
+            <div id="services-1">
+                <div class="page4">
+                    <div class="servicestag">My work:</div>
+                    <div class="banners">
+                        <div class="sercap"><img class="ser" src="bugicons/hackathon.png">Hackathons<br> <span style="color: gray; font-size: 14px;">-Open Source Contribution</span><span style="color: gray; font-size: 14px;">-SWOC 2.0</span><span style="color: gray; font-size: 14px;">-Hacking 4 Community Hackathon</span></div>
+                        <div class="sercap"><img class="ser" src="bugicons/blogs.png">Blogs<br> <span style="color: gray; font-size: 14px;">-Link to Medium Page</span></div>
+                        <div class="sercap"><img class="ser" src="bugicons/bugbounty.png">Bug Bounty Hunting<br> <span style="color: gray; font-size: 14px;">-Among top 220 on YesWeHack.</span><span style="color: gray; font-size: 14px;">-Received recognition and awards for securing numerous organisations.</span></div>
+                        <div class="sercap"><img class="ser" src="bugicons/pythonproj.png">Python Projects<br> <span style="color: gray; font-size: 14px;">-Worked on various different python projects</span></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        <div id="team">
+                <div  class="header3">
+                    <p class="founders">Skills(Upadting th site)</p>
+                </div>  
+             <!--   <div class="skills-cls">
+                    <br>
+                    <br>
+                    <br>
+                    <button class="but-2">
+                        <a>Bug Hunting/Pentesting</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Python</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Solidity</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Front-End Designing</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Cloud Computing</a>
+                    </button>
+                    <button class="but-2">
+                        <a>DBMS</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Burp Suite</a>
+                    </button>
+                    <button class="but-2">
+                        <a>Risk Analysis</a>
+                    </button>
+                </div> -->
+                
+
+              
+        </div>
+
+
+
+            <div class="footer">
+                <div class="header3">
+                    <p class="founders">Get In Touch<br> <span style="color: gray; font-size: 14px;">My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</span></p>
+                    
+                </div>
+                <button class="but-1">
+                    <a href="mailto: prathameshbagul@gmail.com">Say Hello</a>
+                </button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="https://linkedin.com/in/prathameshbagul"><img class="bs-logo-1" src="./bugicons/linkedin.png" alt="LinkedIn"></a>
+              <a href="https://twitter.com/prath_10"><img class="bs-logo-1" src="./bugicons/twitter.png" alt="Twitter"></a>
+              <a href="https://medium.com/@prathameshbagul"><img class="bs-logo-1" src="./bugicons/medium.png" alt="Medium"></a>
+              
+
+    
+            </div>
+    </body>
+</html>
+

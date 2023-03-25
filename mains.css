@@ -1,0 +1,401 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    box-shadow: rgb(77, 82, 94, 0.15) 0px 0px 14px 0px;
+    background-color: white;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.ham-icon{
+height: 35px;
+margin-left: 10px;
+}
+
+.ham-icon:hover{
+    cursor: pointer;
+}
+
+
+.bs-logo{
+    margin-left: 15px;
+    left: 50;
+    width: 150px;
+    height: 100px;
+    margin-right: -15px;
+}
+
+.knot-logo:hover{
+    cursor:pointer;
+}
+
+.middle-section{
+    display: flex;
+    width: 500px;
+    margin-left: 45%;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yt-icon{
+    height: 20px;
+    margin-left: 50px;
+}
+
+
+.tabs{  
+    font-family: roboto, Arial;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.tabs:hover{
+    cursor: pointer;
+    color: rgb(0, 157, 255);
+}
+
+
+.page1{
+    display: flex;
+    top: 0;
+    font-family: roboto,Arial;
+    margin-top: 90px;
+    height: 630px;
+    background-color: rgb(240, 244, 248);
+    box-shadow: inset 0 -5px 5px -10px black;
+    margin-bottom: 0%;
+}
+
+
+.ip-box{
+    display: flexbox;
+    margin-top: 200px;
+    margin-left: 70px;
+    font-family: poppins;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    height: 210px;
+    width: 600px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px black;
+    padding: 0px;
+    
+    
+}
+
+.ip-head{
+    margin-top: -10px;
+    width: 600px;
+    height: 30px;
+    background-color: rgb(48, 48, 54);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.three-but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.red-c{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.yellow-c{
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.green-c{
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    margin-left: 8px;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.gm{
+    color: rgb(0, 157, 255);
+    font-family: poppins;
+    font-size:35px;
+}
+
+.page2{
+    height: 300px;
+    background-color: whitesmoke;
+}
+
+
+.para{
+    margin-top: 190px;
+    margin-left: 180px;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 48, 54);
+    width: 500px;
+}
+
+span{
+    font-family: Poppins,Arial;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+
+.page2{
+    height: 800px;
+    background-color: rgb(240, 244, 248);
+}
+
+.header2{
+    background-color:  rgb(38, 35, 46);
+    height: 50px;
+    display:flex;
+    flex: 1;
+
+}
+
+
+.members{  
+    color: rgb(231, 223, 221);
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 190px;
+}
+
+
+.collegelogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(38, 35, 46);
+    padding-left: 10px;
+    height: 200px;
+    margin-top: -30px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.symbi{
+    height: 120px;
+    width: 120px;
+    border-radius: 190px;
+}
+
+
+.page2content{
+    background-color: rgb(14, 11, 22);
+    height: 550px;
+}
+
+.page2text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 70px;
+    letter-spacing: 0.8;
+    font-size: 32px;
+    color:rgb(231, 223, 221);
+    height: 100px;
+}
+
+
+.shortpage2text{
+    text-align: center;
+    line-height: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.8;
+    font-size: 18px;
+    color:rgb(231, 223, 221);
+    display: inline-block;
+    height: 32px;
+    margin-top: 20px;
+}
+
+.orange{
+    color: rgb(0, 157, 255);
+}
+
+.joincta{
+    color: rgb(0, 157, 255);
+}
+
+.joincta:hover{
+    cursor:pointer;
+}   
+
+.bannerpanel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+
+.banner{
+    height: 180px;
+    width: 344px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.banner:hover{
+    cursor: pointer;
+}
+
+.captionpanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.caption{
+    margin-top: -5px;
+    background-color:rgb(38, 35, 46);
+    text-align: center;
+    height: 50px;
+    width: 330px;
+    color: rgb(231, 223, 221);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .5s;
+}
+
+.caption:hover{
+    cursor: pointer;
+    background-color: rgb(231, 223, 221);
+    color: rgb(14, 11, 22);
+}
+
+.navpanel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav1{
+    margin-top: 20px;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    border-radius: 105px;
+    background-color:rgb(38, 35, 46);
+    margin-left: 740px;
+    margin-right: 2px;
+}
+
+.nav2{
+    width: 25px;
+    font-size: 12px;
+    height: 25px;
+    border-radius: 105px;
+    background-color:rgb(38, 35, 46);
+    margin-left: 1px;
+
+}
+
+.joinpanel{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 78px;
+}
+
+.join{
+    background-color:rgb(0, 157, 255);
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: .5s;
+    text-align: center;
+}
+
+.join:hover{
+    background-color: rgb(231, 223, 221);
+    color:rgb(14, 11, 22);
+}
+
+
+.but7{
+    z-index: 101;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(0, 157, 255);
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 8px;
+    width: 220px;
+    height: 40px;
+    transition: 0.5s;
+    font-size: 22px;
+    color:white;    
+    font-weight: 500;
+    border: 0;
+}
+
+.but7:hover{
+    background-color:rgb(231, 223, 221) ;
+    color:rgb(14, 11, 22);
+    cursor: pointer;
+}
+
+
+.whatsapp{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+
+

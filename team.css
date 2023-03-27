@@ -1,9 +1,10 @@
 .header3{
     background-color:  rgb(38, 35, 46);
-    height: 150px;
+    height: 300px;
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .founders{ 
@@ -25,6 +26,19 @@
     padding-right: 40px;
 }
 
+.skillss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but-2{
+    height: 50px;
+    width: 150px;
+    /* padding: 10px; */
+    margin: 20px;
+    background: unset;
+  }
 
 
 .facename{
